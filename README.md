@@ -82,7 +82,7 @@ You are given an m x n matrix M initialized with all 0's and an array of operati
 Count and return the number of maximum integers in the matrix after performing all the operations<br>
 **Example 1:**<br>
 
-![q4.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d0890d0-7bc7-4f59-be8e-352d9f3c1c52/q4.jpg)
+![q4.jpg](https://github.com/Srijana1425/2D_Array_Assignment4/blob/main/img/q4.jpg)<br>
 **Input:** m = 3, n = 3, ops = [[2,2],[3,3]]<br>
 **Output:** 4<br>
 **Explanation:** The maximum integer in M is 2, and there are four of it in M. So return 4.<br><br>
