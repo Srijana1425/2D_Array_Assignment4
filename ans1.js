@@ -1,0 +1,29 @@
+const arr1 = [1,2,3,4,5];
+const arr2 = [1,2,5,7,9];
+const arr3 = [1,3,4,5,8];
+const commonnumber = function(arr1, arr2, arr3){
+   let i = 0;
+   let j = 0;
+   let k = 0;
+   const res = [];
+   while((i < arr1.length) && (j < arr2.length) && (k < arr3.length)){
+      if((arr1[i] === arr2[j]) && (arr2[j] === arr3[k])){
+         res.push(arr1[i]);
+         i++;
+         j++;
+         k++;
+      }
+      const max = Math.max(arr1[i], arr2[j], arr3[k]);
+      if(arr1[i] < max){
+         i++;
+      };
+      if(arr2[j] < max){
+        j++;
+      };
+      if(arr3[k] < max){
+         k++;
+      };
+   };
+   return res;
+};
+console.log(commonnumber(arr1, arr2, arr3));
