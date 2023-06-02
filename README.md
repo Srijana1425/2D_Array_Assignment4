@@ -30,7 +30,7 @@ The *transpose* of a matrix is the matrix flipped over its main diagonal, switch
 **Example 1:**<br>
 **Input:** matrix = [[1,2,3],[4,5,6],[7,8,9]]<br>
 **Output:** [[1,4,7],[2,5,8],[3,6,9]]<br>
-![iamge_v3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a54805f4-c9b5-491c-a900-8e8a94062c79/iamge_v3.png)<br><br>
+![iamge_v3.png]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a54805f4-c9b5-491c-a900-8e8a94062c79/iamge_v3.png](https://github.com/Srijana1425/2D_Array_Assignment4/blob/main/img/iamge_v3.png))<br><br>
 Answer<br>
 **code** [link](https://github.com/Srijana1425/2D_Array_Assignment4/blob/main/ans3.js)
 
